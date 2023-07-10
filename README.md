@@ -29,8 +29,8 @@ either pull the docker image or build from this repo
 
 and then run
 
-`docker run -d -t --rm -e DISPLAY=$DISPLAY --privileged -v /tmp/.X11-unix:/tmp/.X11-unix -v /home/josh/ -v $(pwd):/root/work --net=host alacritty-test >/dev/null`
+`docker run -d -t --rm -e DISPLAY=$DISPLAY --privileged -v /tmp/.X11-unix:/tmp/.X11-unix -v /home/josh/ -v $(pwd):/root/work --net=host dev-motorhome >/dev/null`
 
 I personally have this as an alias in zsh to spin up a dev environment quickly
 
-`alias dev='docker run -d -t --rm -e DISPLAY=$DISPLAY --privileged -v /tmp/.X11-unix:/tmp/.X11-unix -v /home/josh/ -v $(pwd):/root/work --net=host alacritty-test >/dev/null'`
+`alias dev='docker run -d -t --rm -e DISPLAY=$DISPLAY --privileged -v /tmp/.X11-unix:/tmp/.X11-unix -v /home/josh/ -v $(pwd):/root/work --net=host dev-motorhome >/dev/null'`

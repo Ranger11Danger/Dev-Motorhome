@@ -21,6 +21,9 @@ currently this is the first implementation so it doesnt have much but it has the
 - Alacritty
 
 ## How do I use it?
+make sure you run 
+`xhost +`
+to allow the docker container to connect to x11
 
 either pull the docker image or build from this repo
 
